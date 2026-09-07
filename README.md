@@ -1,34 +1,48 @@
-Happy Birthday
+# Happy Birthday Hapen T
 
-A Happy Birthday animation design in CSS3, HTML5.
+A premium birthday greeting card — cinematic, elegant, and personal.
 
-URL: http://ayusharma.github.io/birthday/
+**For:** Hapen T
 
-Technology Used: HTML5 CSS3 jQuery  GNU/Linux Digital Ocean as VPS GIMP
+**Live:** https://twistedoliver211fs-art.github.io/hapen-t-birthday/
 
-# Setup
+---
 
-## If you have python installed:
-```
-cd Birthday
-```
+## What's inside
 
-&& 
+- **Balloons** — floating balloons spelling out HAPEN T
+- **Lights** — warm glowing bulbs with elegant pulse animations
+- **Cake** — animated birthday cake with flickering candle flames
+- **Music** — `hbd.mp3` plays as the celebration unfolds
+- **Message** — a personal birthday message revealed at the end
 
-```
-python -m SimpleHTTPServer --port  8081
-```
+---
 
-visit http://localhost:8081 in your browser.
+## Tech
 
-## If you have nodejs installed
+Pure HTML5, CSS3 animations, and jQuery for interactions.
+
+---
+
+## Deploy
+
+This project is hosted on GitHub Pages via the `gh-pages` branch.
+
 ```
 npm install
+npm run deploy
 ```
-&&
+
+Or manually:
 
 ```
-npm run server-node
+git checkout gh-pages
+git merge master
+git push origin gh-pages
 ```
-visit http://localhost:8081 in your browser.
 
+---
+
+## License
+
+WTFPL

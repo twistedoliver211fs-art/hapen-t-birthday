@@ -1,25 +1,26 @@
 {
-  "name": "birthday",
+  "name": "hapen-t-birthday",
   "version": "1.0.0",
-  "description": "Birthday greetings..",
-  "main": " ",
+  "description": "Happy Birthday Hapen T - a premium birthday greeting",
+  "main": "index.html",
   "scripts": {
-    "server-node": "http-server -p 8081"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayusharma/birthday.git"
+    "url": "git+https://github.com/twistedoliver211fs-art/hapen-t-birthday.git"
   },
   "keywords": [
-    "Birthday"
+    "Birthday",
+    "Hapen"
   ],
-  "author": "Ayush Sharma",
+  "author": "TwistedOliver211FS-Art",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/ayusharma/birthday/issues"
+    "url": "https://github.com/twistedoliver211fs-art/hapen-t-birthday/issues"
   },
-  "homepage": "https://github.com/ayusharma/birthday#readme",
-  "dependencies": {
-    "http-server": "^0.11.1"
+  "homepage": "https://github.com/twistedoliver211fs-art/hapen-t-birthday#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
