@@ -1,7 +1,14 @@
-$(window).load(function(){
+// Fade out loading spinner — use ready() since with defer the
+// window.load event may have already fired by the time this runs
+$(document).ready(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
+// Fallback: if ready already fired, run immediately
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+	$('.loading').fadeOut('fast');
+	$('.container').fadeIn('fast');
+}
 $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
